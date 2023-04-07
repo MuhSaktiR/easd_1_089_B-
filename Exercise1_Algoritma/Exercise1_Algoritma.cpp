@@ -24,5 +24,16 @@ void mergeSort(int a[], int low, int high) {
 	if (low >= high) {
 		return;
 	}
+
+	int mid = (low + high) / 2;
+
+	mergeSort(a, low, mid);
+	mergeSort(a, mid + 1, high);
+
+	int i = low;
+	int j = mid + 1;
+	int k = low;
+	int B[MAKS_DATA];
+
 }
 
