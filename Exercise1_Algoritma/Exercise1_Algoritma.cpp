@@ -64,3 +64,11 @@ void mergeSort(int a[], int low, int high) {
 	}
 }
 
+void display(int a[], int n) {
+	cout << "\nSetelah diurutkan:" << endl;
+	for (int t = 0; t < n; t++) {
+		cout << "Data ke-" << (t + 1) << ": " << a[t] << endl;
+	}
+}
+
+
