@@ -35,5 +35,16 @@ void mergeSort(int a[], int low, int high) {
 	int k = low;
 	int B[MAKS_DATA];
 
+	while (i <= mid && j <= high) {
+		if (a[i] <= a[j]) {
+			B[k] = a[i];
+			i++;
+		}
+		else {
+			B[k] = a[j];
+			j++;
+		}
+		k++;
+	}
 }
 
