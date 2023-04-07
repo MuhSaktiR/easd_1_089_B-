@@ -8,4 +8,10 @@ const string NICKNAME = "Sakti"; // Untuk mengganti "arr" menjadi nama panggilan
 void input(int a[], int& n) {
 	cout << "Masukkan jumlah data (maksimum " << MAKS_DATA << "): ";
 	cin >> n;
+
+	if (n > MAKS_DATA) {
+		cout << "Jumlah data terlalu banyak. Maksimum data adalah " << MAKS_DATA << "." << endl;
+		exit(0); // terminate the program
+	}
 }
+
