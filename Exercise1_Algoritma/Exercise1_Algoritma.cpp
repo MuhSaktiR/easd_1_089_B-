@@ -13,5 +13,10 @@ void input(int a[], int& n) {
 		cout << "Jumlah data terlalu banyak. Maksimum data adalah " << MAKS_DATA << "." << endl;
 		exit(0); // terminate the program
 	}
+
+	for (int t = 0; t < n; t++) {
+		cout << "Data ke-" << (t + 1) << ": ";
+		cin >> a[t];
+	}
 }
 
