@@ -1,6 +1,27 @@
 #include <iostream>
 using namespace std;
 
+//1. algoritma memiliki pengertian, urutan, langkah-langkah, tahapan-tahapan yang dapat dilakukan untuk menyelesaikan suatu masalah secara berurutan. Karena, jika kita memecahkan masalah dengan asal-asalan tanpa langkah-langkah (algoritma) yang tepat, 
+//maka sudah dipastikan masalah tersebut akan berantakan karena tidak tersusun dengan rapi. Dengan menyelesaikan masalah menggunakan algoritma, sebesar apapun masalah yang dihadapi akan lebih mudah untuk diselesaikan. Karena dengan menggunakan metode ini,
+//masalah akan dipecahkan secara terurut, tertahap dan lengkap satu-persatu tidak ada langkah yang tertinggal. jika tidak ada algoritma mungkin masalah bisa diselesaikan tapi bisa juga cara menyelesaikannyalah yang akan rumit.
+
+//2. Struktur data dapat diklasifikasikan dalam dua kategori berikut:
+//Static: Example – Array
+//Dynamic : Example – Linked List
+
+//3. Pengaruh Kecepatan mesin
+//Pengaruh dari Penyusun / Compiler
+//Sistem operasi yang digunakan
+//Bahasa pemrograman
+//Memasukan data / input data ke dalam program
+
+//4.Merge sort merupakan algoritma pengurutan dalam ilmu komputer yang dirancang untuk memenuhi 
+//kebutuhan pengurutan atas suatu rangkaian data yang tidak memungkinkan untuk ditampung dalam memori 
+//komputer karena jumlahnya yang terlalu besar.
+
+//5. Yang memakai Quadratic yaitu Bubble, Selection, dan Insertion Sort
+//Sedangkan yang memakai Loglinear Merge dan Qucik sort
+
 const int MAKS_DATA = 109; // maksimum data dari 2 digit nim akhir (89) + 20 - 2 * 15 + 10 + 20
 const string INISIAL = "SR"; // Untuk nanti mengganti "j" menjadi 2 inisial SR
 const string NICKNAME = "Sakti"; // Untuk mengganti "arr" menjadi nama panggilan Sakti
