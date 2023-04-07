@@ -65,10 +65,22 @@ void mergeSort(int a[], int low, int high) {
 }
 
 void display(int a[], int n) {
-	cout << "\nSetelah diurutkan:" << endl;
+	cout << "\n====================" << endl;
+	cout << "Setelah diurutkan:" << endl;
+	cout << "====================\n" << endl;
 	for (int t = 0; t < n; t++) {
 		cout << "Data ke-" << (t + 1) << ": " << a[t] << endl;
 	}
 }
 
+int main() {
+	int n;
+	int a[MAKS_DATA];
+
+	input(a, n);
+	mergeSort(a, 0, n - 1);
+	display(a, n);
+
+	return 0;
+}
 
