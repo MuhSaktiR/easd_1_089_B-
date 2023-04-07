@@ -20,3 +20,7 @@ void input(int a[], int& n) {
 	}
 }
 
+void mergeSort(int a[], int low, int high) {
+
+}
+
